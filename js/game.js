@@ -28,7 +28,7 @@ document.addEventListener("keydown", moveUp);
 
 function moveUp() {
 
-    yPos -= 25;
+    yPos -= 30;
     
 }
 
@@ -45,7 +45,7 @@ pipe[0] = {
 //Самолет
 var xPos = 10;
 var yPos = 150;
-var grav = 1.2;
+var grav = 1.0;
 var score = 0;
 
 function draw() {
